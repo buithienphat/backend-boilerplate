@@ -3,6 +3,7 @@ import cors from 'cors';
 import morgan from 'morgan';
 
 import { PATH_PREFIX } from '@common/constants';
+import 'dotenv/config';
 
 interface Options {
   port: number;
